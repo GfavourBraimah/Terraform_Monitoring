@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+*.pid
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.backup
+*.terraform.lock.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# VS Code
+.vscode/
+
+# Ignore secrets
+*.pem
+*.key
+*.crt
+
+# Ignore user-data logs
+user-data.log
+
+# Ignore start
